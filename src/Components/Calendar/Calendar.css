@@ -1,0 +1,53 @@
+.school-calendar{
+    padding: 6%;
+}
+.calendar-title h2{
+    text-align: center;
+    font-size: 40px;
+    color: #10316B;
+    width: 100%;
+    padding: 0px 0px 40px 0px;
+}
+.dotted{
+    border-right: dotted green 4px;
+    border-left: dotted green 4px
+}
+.event{
+    padding: 20px;
+}
+.event h3{
+    color:#10316B;
+    font-size: 30px;
+    font-weight: 600
+}
+.mes{
+    color: red;
+    display: block;
+    font-size: 22px;
+    font-weight: 700
+}
+.fecha{
+    text-align: center
+}
+@media screen and (max-width:772px){
+    .event{
+        text-align: center
+    }
+    .event h3{
+        color:#10316B;
+        font-size: 20px;
+        font-weight: 600
+    }
+    .mes{
+        color: red;
+        display: block;
+        font-size: 18px;
+        font-weight: 700
+    }
+
+}
+@media screen and (max-width:420px){
+    .dotted{
+        border-right: dotted rgb(255, 255, 255) 4px;
+    }
+}

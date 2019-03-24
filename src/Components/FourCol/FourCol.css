@@ -1,0 +1,48 @@
+.four-col{
+   height: auto;
+   background:white;
+   padding-bottom: 50px;
+}
+.col-title h2{
+    padding: 40px;    
+    width: 100%;
+    text-align: center
+
+}
+.col-title p{
+    text-align: left;
+    padding: 30px 20px 60px 20px;
+    width: 100%;
+}
+
+.col-4{
+    text-align: center;
+    padding: 10px;
+
+}
+
+.col-4 h4{
+    margin-top: 30px;
+    color: rgb(193, 9, 9)
+}
+
+@media screen and (max-width:500px){
+    .col-title p{
+        font-size: 16px;
+    }
+    .col h2{
+        font-size: 2em;
+    }
+    .col p{
+        font-size: .8em;
+    }
+    .col-4{
+        font-size: 1em;
+    }
+    .col-4 h4{
+        font-size: 1em
+    }
+    .col-4 p{
+        font-size: 16px
+    }
+}

@@ -1,0 +1,49 @@
+.school-activities{
+    background: #10316B;
+    padding: 30px 0px;
+}
+.all-bubbles-container{
+    margin-bottom: 80px
+}
+.bubbles-title{
+    text-align: center;
+    color: white;
+    padding: 30px 0px;
+}
+.bubble-container{
+    padding: 20px
+}
+.bubble{
+    border-radius: 50%;
+    text-align: center;
+}
+.bubble img{
+    width: 50%;
+    border-radius: 50%;
+    height: auto;
+    border: solid white 4px
+
+}
+.bubble p{
+    font-size: 25px;
+    position: absolute;
+    right: 10%;
+    bottom: 2%;
+    font-weight: 700;
+    text-shadow:-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.bubble p.nat{
+    color:rgb(49, 186, 22)
+}
+.bubble p.fut{
+    color: rgb(14, 118, 245)
+}
+.bubble p.baile{
+    color:  rgb(232, 23, 23)
+}
+@media screen and (max-width:600px){
+    .bubble img{
+        height: 125px;
+        width: auto
+    }
+}
