@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "cb39020e98db75b29aee",
-    "url": "/static/css/main.8a09be9e.chunk.css"
+    "revision": "58521c60c3912a6d0c3b",
+    "url": "/static/css/main.8ae594ca.chunk.css"
   },
   {
-    "revision": "cb39020e98db75b29aee",
+    "revision": "58521c60c3912a6d0c3b",
     "url": "/static/js/main.09c0ae77.chunk.js"
   },
   {
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/dance.fa558ebe.png"
   },
   {
-    "revision": "f1ae2f9ef295d6755aaf6759c2832fd3",
+    "revision": "43113eafb517abccc3a3f80129c23aba",
     "url": "/index.html"
   }
 ];
