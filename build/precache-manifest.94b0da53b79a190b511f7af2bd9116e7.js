@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/dance.fa558ebe.png"
   },
   {
-    "revision": "84c160fc1616e5014dbfdb28ff96c26d",
+    "revision": "9aba120ad6f8039b77a14a0ace8316d6",
     "url": "/index.html"
   }
 ];
