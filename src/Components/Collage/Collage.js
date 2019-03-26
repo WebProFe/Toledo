@@ -32,8 +32,10 @@ const Collage = () =>{
                 </Row>
             </Col>
             <Col className="collage-container-center" sm="4" xl="4">
-                    <Row className="center-pic">
-                        <img src={gameRoom} alt="nino" />
+                    <Row className="center-row">
+                        <div className="center-pic">
+                            <img src={gameRoom} alt="nino" />
+                        </div>
                         <div className="large-pic-overlay">
                             <div className="text lg">
                                 <h3>Espacios Abiertos</h3>
@@ -45,7 +47,7 @@ const Collage = () =>{
             <Col className="collage-container-left" sm="4" xl="4">
                 <Row>
                     <div className="top-right-pic">
-                        <img src={girl} alt="nino" />
+                        <img src={girl} alt="nino"/>
                     </div>
                     <div className="medium-pic-overlay right">
                         <div className="text md">

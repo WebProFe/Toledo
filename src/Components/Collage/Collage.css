@@ -16,11 +16,23 @@
 .top-left-pic img, .bottom-right-pic img, .bottom-left-pic, .top-right-pic{
     width: 100%
 }
+.collage-container-center{
+    /* border: solid pink 2px; */
+    padding-top: 8px
+}
+.center-row{
+    /* padding: 0px 5px 25px 5px; */
+    /* border: solid red 3px; */
+    height: 82%;
+
+}
 .center-pic{
-    min-height: 100%;
+    /* border: solid black 2px; */
+    height: 120%
 }
 .center-pic img{
-    padding: 10px 5px;
+    width: 100%;
+    height: 100%;
 }
 .small-pic-overlay{
     position: absolute;
