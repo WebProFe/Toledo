@@ -19,9 +19,9 @@ const Footer = ()=> {
                 </Col>
                 <Col className="footer-top-col-three" md="12" xl="4">
                     <h2>Ponte En Contacto</h2>
-                    <p>Direccion: <span>Calle 123, Tonala Jal.</span></p>
+                    <p>Direccion: <span>Avenida Benito Juarez, Torreon Coah</span></p>
                     <p>Tel: <span>555-555-5555</span></p>
-                    <p>Correo Electronico: <span>scsalon@gmail.com</span></p>
+                    <p>Correo Electronico: <span>info@colegiotoledo.com</span></p>
                 </Col>
             </Row>
             <Row className="footer-bottom">
