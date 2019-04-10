@@ -8,7 +8,11 @@ const FourCols = (props) =>{
     <Container fluid className="four-col">
         <Row className="col-title">
                 {/* <h2>Colegio Bilingue Toledo</h2> */}
-                <p>Fundado en 2001 Colegio Bilingue Francisco de Toledo ofrece clases en Ingles para ayudar a alumnos en su desarrollo de la lengua del Ingles. Nuestro colegio ofrece clases a estudiantes de kinder hasta 3ro de Secundaria. Nuestros maestros estan altamente capacitados y preparados para ayudar a nuestros estudiantes a fomentar sus abilidades mediante proyectos y actividades rigorosas. </p>
+            <Col className="col-1"></Col>
+            <Col className="col-10">
+               <p>Fundado en 2001 Colegio Bilingue Francisco de Toledo ofrece clases en Ingles para ayudar a alumnos en su desarrollo de la lengua del Ingles. Nuestro colegio ofrece clases a estudiantes de kinder hasta 3ro de Secundaria. Nuestros maestros estan altamente capacitados y preparados para ayudar a nuestros estudiantes a fomentar sus abilidades mediante proyectos y actividades rigorosas. </p>
+            </Col>
+            <Col className="col-1"></Col>
         </Row>
         <Row>
             <Col className="col-4" xs="6" sm="6" md="3" >
@@ -35,7 +39,7 @@ const FourCols = (props) =>{
             </Col>
         </Row>
     </Container>
-    ) 
+    )
 }
 
 export default FourCols;
